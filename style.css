@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 3em;
+}
+
+.banner{
+    text-align: center;
+}
