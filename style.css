@@ -10,7 +10,8 @@ body{
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #5a0303;
+    background: rgb(2,0,36);
+    background: linear-gradient(149deg, rgba(2,0,36,1) 0%, rgba(121,9,12,1) 35%, rgba(255,0,119,1) 100%);
     color: white;
 }
 
@@ -32,7 +33,7 @@ body{
 .elenco{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 3px;
 }
 
 .ator{
@@ -40,9 +41,18 @@ body{
 }
 
 .ator img{
-    width: 100px;
-    height: 150px;
+    width: 150px;
+    height:200px;
     object-fit: cover;
     border-radius: 40px;
     box-shadow: 0 0 10px;
+}
+
+.sinopse-texto{
+
+  border-radius: 10px;
+  font-family: "Pontano Sans", sans-serif;
+  font-size: 20px;
+  box-shadow: 0 0 20px #808080;
+  background-color: #aba00e;
 }
